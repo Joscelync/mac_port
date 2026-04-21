@@ -32,7 +32,7 @@ const Finder = () => {
                         className={clsx(item.id === activeLocation.id ? "active" : "not-active",
                         )}
                     >
-                        <img src={item.icon} className="w-4" alt={item.name} />
+                        <img src={item.icon} className={item.miniFolderSize} alt={item.name} />
                         <p className="text-sm font-medium truncate">
                             {item.name}
                         </p>
@@ -62,7 +62,7 @@ const Finder = () => {
                             className={item.position}
                             onClick={() => openItem(item)}
                         >
-                            <img src={item.icon} alt={item.name} />
+                            <img src={item.icon} alt={item.name} className={item.folderSize}/>
                             <p>{item.name}</p>
                         </li>
                     ))}

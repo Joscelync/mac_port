@@ -39,37 +39,43 @@ const dockApps = [
     {
         id: "finder",
         name: "Portfolio", // was "Finder"
-        icon: "finder.png",
+        icon: "MyFinder.png",
+        iconSize: "w-12 h-16",
         canOpen: true,
     },
     {
         id: "safari",
         name: "Articles", // was "Safari"
-        icon: "safari.png",
+        icon: "MySafari.png",
+        iconSize: "w-14 h-15",
         canOpen: true,
     },
     {
         id: "photos",
         name: "Gallery", // was "Photos"
-        icon: "photos.png",
+        icon: "myGallery.png",
+        iconSize: "w-15 h-15",
         canOpen: true,
     },
     {
         id: "contact",
         name: "Contact", // or "Get in touch"
-        icon: "contact.png",
+        icon: "MyContact.png",
+        iconSize: "w-13 h-15",
         canOpen: true,
     },
     {
         id: "terminal",
         name: "Skills", // was "Terminal"
-        icon: "terminal.png",
+        icon: "MyTerminal.png",
+        iconSize: "w-15 h-15",
         canOpen: true,
     },
     {
         id: "trash",
         name: "Archive", // was "Trash"
-        icon: "trash.png",
+        icon: "MyTrash.png",
+        iconSize: "w-13 h-17",
         canOpen: false,
     },
 ];
@@ -226,7 +232,9 @@ const WORK_LOCATION = {
         {
             id: 5,
             name: "Nike Ecommerce Website Application",
-            icon: "/images/folder.png",
+            icon: "/images/MyFolder1.png",
+            folderSize: "w-20 h-20 object-contain",
+            miniFolderSize: "w-4",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
             windowPosition: "top-[15vh] left-50", // optional: Finder windows position
@@ -279,8 +287,10 @@ const WORK_LOCATION = {
         {
             id: 6,
             name: "AI Resume Analyzer",
-            icon: "/images/folder.png",
+            icon: "/images/MyFolder2.png",
             kind: "folder",
+            folderSize: "w-20 h-20 object-contain",
+            miniFolderSize: "w-4",
             position: "top-52 right-80",
             windowPosition: "top-[35vh] left-260",
             children: [
@@ -332,8 +342,10 @@ const WORK_LOCATION = {
         {
             id: 7,
             name: "Food Delivery App",
-            icon: "/images/folder.png",
+            icon: "/images/MyFolder3.png",
             kind: "folder",
+            folderSize: "w-25 h-25 object-contain",
+            miniFolderSize: "w-5",
             position: "top-10 left-80",
             windowPosition: "top-[50vh] left-25",
             children: [

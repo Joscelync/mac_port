@@ -79,11 +79,11 @@ const Dock = () => {
     return (
         <section id="dock">
             <div ref={dockRef} className="dock-container">
-                {dockApps.map(({id, name, icon, canOpen}) => (
+                {dockApps.map(({id, name, icon, canOpen, iconSize}) => (
                     <div key={id} className="relative flex justify-center">
                         <button
                         type="button"
-                        className="dock-icon"
+                        className={`dock-icon ${iconSize}`}
                         aria-label={name}
                         data-tooltip-id="dock-tooltip"
                         data-tooltip-content={name}
