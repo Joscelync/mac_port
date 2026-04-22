@@ -108,27 +108,15 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Angular", "Responsive Design", "Cross-Browser Compatibility", "Component-Based Architecture" ],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "Frameworks & Tools",
+        items: ["Git", "GitHub", "CI/CD Concepts", "REST APIs", "WebSockets", "Figma", "Framer", "Adobe XD" ],
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
-    },
-    {
-        category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
-    },
-    {
-        category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
-    },
-    {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "UX/UI & Accessibility",
+        items: ["Wireframing", "Prototyping", "Design Systems", "Usability Testing", "WCAG Accessibility Standards", "SEO Best Practices" ],
     },
 ];
 

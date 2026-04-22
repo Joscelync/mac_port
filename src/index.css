@@ -177,9 +177,10 @@ body {
             }
 
             .content {
-                @apply py-5 my-5 border-y border-dashed space-y-1;
+                @apply py-5 my-5 border-y border-dashed space-y-5;
 
                 li {
+
                     .check {
                         @apply text-[#00A154] w-5;
                     }
@@ -189,7 +190,7 @@ body {
                     }
 
                     ul {
-                        @apply flex items-center gap-3;
+                        @apply flex flex-wrap items-center gap-3 w-90 gap-y-0;
                     }
                 }
             }
@@ -210,6 +211,15 @@ body {
 
     #contact {
         @apply max-w-2xl absolute top-60 left-5/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+
+        .my-link {
+            color: mediumpurple;
+            text-decoration: underline;
+        }
+
+        .my-link:hover {
+            color: purple; /* Color changes to red on hover */
+        }
 
         h2 {
             @apply font-bold text-sm text-center w-full;
