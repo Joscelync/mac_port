@@ -21,7 +21,7 @@ const Photos = () => {
 
             <div className="flex w-full">
                 <div className="sidebar">
-                    <h2>Photos</h2>
+                    <h2>Life Lately</h2>
 
                     <ul>
                         {photosLinks.map(({id, icon, title}) => (
