@@ -78,6 +78,11 @@ body {
         }
     }
 
+    #date{
+        @apply w-24 rounded-xl overflow-hidden shadow-lg bg-white;
+
+    }
+
     #dock {
         @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-50 select-none max-sm:hidden;
 
