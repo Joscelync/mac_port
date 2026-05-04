@@ -22,7 +22,11 @@ const Resume = () => {
                     <Download className="icon"/>
                 </a>
             </div>
-            <Document file="files/JoscelynCauley_Resume.pdf" >
+            <Document
+                file="/files/JoscelynCauley_Resume.pdf"
+                loading={<p>Loading...</p>}
+                error={<p>Failed to load PDF</p>}>
+
                 <Page pageNumber={1}  renderTextLayer renderAnnotationLayer/>
             </Document>
         </>
