@@ -5,5 +5,6 @@ import WindowControls from "#components/WindowControls.jsx";
 import Home from "#components/Home.jsx";
 import MyCal from "#components/MyCal.jsx";
 import MyTime from "#components/MyTime.jsx";
+import MyMusic from "#components/MyMusic.jsx";
 
-export {Navbar, Welcome, Dock, WindowControls, Home, MyCal, MyTime};
+export {Navbar, Welcome, Dock, WindowControls, Home, MyCal, MyTime, MyMusic};
