@@ -15,8 +15,10 @@ const MyTime = () => {
     }, []);
 
     return (
-        <div className="w-40 h-40 rounded-2xl bg-yellow-400/30 backdrop-blur-sm p-2 shadow-xl">
-            <time>{time.format("h:mm")}</time>
+        <div
+            className="w-43 h-43 rounded-2xl bg-yellow-300/30 backdrop-blur-sm p-2 shadow-xl flex items-center justify-center flex-col gap-3">
+            <p className="life-savers-regular text-gray-50 text-lg">Lawrenceville, GA</p>
+            <time className="text-7xl life-savers-extrabold text-white">{time.format("h:mm")}</time>
         </div>
     )
 }

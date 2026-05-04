@@ -29,21 +29,21 @@ const MyCal = () => {
     }
 
     return (
-        <div className="w-40 h-40 rounded-2xl bg-blue-400/30 backdrop-blur-sm p-2 shadow-xl">
+        <div className="w-43 h-43 rounded-2xl bg-blue-400/30 backdrop-blur-sm p-2 shadow-xl">
             {/* Month */}
             <h2 className="font-bold text-gray-500 ml-1.5">
                 {monthName}
             </h2>
 
             {/* Days of week */}
-            <div className="grid grid-cols-7 text-xs text-center font-bold text-gray-400">
+            <div className="grid grid-cols-7 text-xs text-center font-bold text-gray-200">
                 {daysOfWeek.map((day) => (
                     <p key={day}>{day}</p>
                 ))}
             </div>
 
             {/* Dates */}
-            <div className="grid grid-cols-7 text-center text-xs font-semibold text-white/50">
+            <div className="grid grid-cols-7 text-center text-xs font-semibold text-gray-400">
                 {dates.map((d, i) => (
                     <div key={i}>
                         {d && (

@@ -74,8 +74,8 @@ const Welcome = () => {
 
     return (
         <section id="welcome">
-            <p ref={subtitleRef}>{renderText("Hey, I'm Joscelyn! Welcome to my", "text-3xl font-georama text-purple-300", 100)}</p>
-            <h1 ref={titleRef} className="mt-7">{renderText("portfolio", "text-9xl italic font-georama text-[#d683aa]")}</h1>
+            <p ref={subtitleRef}>{renderText("Hey, I'm Joscelyn! Welcome to my", "text-3xl kalnia-cutie text-purple-300", 100)}</p>
+            <h1 ref={titleRef}>{renderText("portfolio", "text-[150px] italic gluten-cute text-[#d683aa]")}</h1>
 
             <div className="small-screen">
                 <p>This Portfolio is designed for desktop/tablet screens only</p>
