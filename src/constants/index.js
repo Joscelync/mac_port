@@ -217,7 +217,7 @@ const WORK_LOCATION = {
             miniFolderSize: "w-4",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[15vh] left-50", // optional: Finder windows position
+            windowPosition: "top-[10vh] left-200", // optional: Finder windows position
             children: [
                 {
                     id: 1,
@@ -327,7 +327,7 @@ const WORK_LOCATION = {
             folderSize: "w-25 h-25 object-contain",
             miniFolderSize: "w-5",
             position: "top-10 left-80",
-            windowPosition: "top-[50vh] left-25",
+            windowPosition: "top-[65vh] left-250",
             children: [
                 {
                     id: 1,
