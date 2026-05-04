@@ -327,7 +327,7 @@ const WORK_LOCATION = {
             folderSize: "w-25 h-25 object-contain",
             miniFolderSize: "w-5",
             position: "top-10 left-80",
-            windowPosition: "top-[65vh] left-250",
+            windowPosition: "top-[55vh] left-250",
             children: [
                 {
                     id: 1,
