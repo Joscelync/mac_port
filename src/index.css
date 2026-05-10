@@ -121,7 +121,7 @@ body {
         @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-50 select-none max-sm:hidden;
 
         .dock-container {
-            @apply bg-pink-400/20 backdrop-blur-md justify-between rounded-2xl p-1.5 flex items-end gap-1.5;
+            @apply bg-pink-400/20 backdrop-blur-md justify-between rounded-2xl p-2 flex items-end gap-3.5;
         }
 
         .tooltip {
@@ -400,7 +400,7 @@ body {
     }
 
     #txtfile {
-        @apply w-md absolute top-36 right-32 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+        @apply w-150 absolute top-36 right-32 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
         h2 {
             @apply font-bold text-sm text-center w-full;
