@@ -1,4 +1,4 @@
-import {WindowControls} from "#components";
+import {WindowControls} from "#components/Index.js";
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import {ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf} from "lucide-react";
 import {blogPosts} from "#constants/index.js";

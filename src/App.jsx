@@ -1,6 +1,6 @@
 import gsap from "gsap";
-import {Navbar, Welcome, Dock, Home, MyCal, MyTime, MyMusic} from "#components";
-import {Contact, Finder, Image, Resume, Safari, Terminal, Text} from "#windows";
+import {Navbar, Welcome, Dock, Home, MyCal, MyTime, MyMusic} from "#components/Index.js";
+import {Contact, Finder, Image, Resume, Safari, Terminal, Text} from "#windows/Index.js";
 
 import {Draggable} from "gsap/Draggable";
 import {Photos} from "#windows/Index.js";
