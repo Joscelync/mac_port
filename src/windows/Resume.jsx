@@ -22,13 +22,13 @@ const Resume = () => {
                 <WindowControls target="resume"/>
                 <h2>Resume.pdf</h2>
 
-                <a href="/files/JoscelynCauley_Resume.pdf" download className="cursor-pointer" title="Download Resume">
+                <a href="/files/Joscelyn Cauley Resume.pdf" download className="cursor-pointer" title="Download Resume">
                     <Download className="icon"/>
                 </a>
             </div>
             <Document
                 key={windows.resume.isOpen ? "open" : "closed"}
-                file="/files/JoscelynCauley_Resume.pdf"
+                file="/files/Joscelyn Cauley Resume.pdf"
                 loading={<p>Loading...</p>}
                 error={<p>Failed to load PDF</p>}>
 
